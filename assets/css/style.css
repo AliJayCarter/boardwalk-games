@@ -33,7 +33,7 @@ h1,h2,h3{
 }
 
 /*Header*/
-#header .lead{
+header .lead{
     font-family: var(--secondary-font);
 }
 
