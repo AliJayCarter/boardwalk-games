@@ -39,49 +39,82 @@
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body class="d-flex flex-column min-vh-100">
-   <!-- Navbar -->
-    <div>Nav Bar</div>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"><img src="assets/images/apple-touch-icon.png" alt="Logo" height="30px" width="30px"></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="game-library.html">Games</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
     <!--Header with carousel-->
     <header class="container">
-        <div class="row">
-            <div class="col-12 col-xl-6">
-                <p>Boardwalk Games</p>
-            </div>
-            <div class="col-12 col-xl-6">
-                <p>Carousel</p>
-            </div>
+      <div class="row">
+        <div class="col-12 col-xl-6">
+          <p>Boardwalk Games</p>
         </div>
+        <div class="col-12 col-xl-6">
+          <p>Carousel</p>
+        </div>
+      </div>
     </header>
 
     <!-- Main Content to hold all key components, not apart of the grid system-->
-     <main>
-        <section class="container">
-            <div class="row">
-                <div class="col-12">Services Section Heading</div>
-                <div class="col-12 col-md-6 col-xl-3">Services card</div>
-                <div class="col-12 col-md-6 col-xl-3">Services card</div>
-                <div class="col-12 col-md-6 col-xl-3">Services card</div>
-                <div class="col-12 col-md-6 col-xl-3">Services card</div>
-            </div>
-        </section>
+    <main>
+      <section class="container">
+        <div class="row">
+          <div class="col-12">Services Section Heading</div>
+          <div class="col-12 col-md-6 col-xl-3">Services card</div>
+          <div class="col-12 col-md-6 col-xl-3">Services card</div>
+          <div class="col-12 col-md-6 col-xl-3">Services card</div>
+          <div class="col-12 col-md-6 col-xl-3">Services card</div>
+        </div>
+      </section>
     </main>
 
-    
     <!--Footer section-->
     <footer class="mt-auto">
-        <div class="container">
-            <div class="row justify-content-center">
-            <div class="col-12">Contact Section Heading</div>
-            <!--Contact info-->
-            <div class="col-12 col-md-6 col-xl-4">Contact info and social media links</div>
-            <!--Opening Times-->
-            <div class="col-12 col-md-6 col-xl-4">opening Times</div>
-            </div>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12">Contact Section Heading</div>
+          <!--Contact info-->
+          <div class="col-12 col-md-6 col-xl-4">
+            Contact info and social media links
+          </div>
+          <!--Opening Times-->
+          <div class="col-12 col-md-6 col-xl-4">opening Times</div>
         </div>
+      </div>
     </footer>
-
-
 
     <!-- Font Awesome -->
     <script
