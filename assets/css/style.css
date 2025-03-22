@@ -19,7 +19,14 @@ body {
 h1,h2,h3{
     font-family: var(--secondary-font);
     color: var(--primary-color);
-    text-transform: uppercase;
+}
+
+h1, h2 {
+  text-transform: uppercase;
+}
+
+h3{
+  margin-bottom: 2rem;
 }
 
 .sub-heading-color{
@@ -38,7 +45,6 @@ header .lead{
 }
 
 
-
 /* Navbar CSS */
 #navbar {
     background-color: var(--primary-color);
@@ -47,6 +53,30 @@ header .lead{
 #navbar .logo{
   width: 30px;
   height: auto;
+}
+
+/*Card footers in services section*/
+#services .card-footer{
+  font-weight: bold;
+  color: var(--highlight-color);
+  background-color: transparent;
+}
+
+#services .card{
+  margin-bottom: 1.5rem;
+}
+
+/*Fix height of services card*/
+@media screen and (min-width: 768px){
+  #services .card-body{
+    min-height: 191px;
+  }
+}
+
+@media screen and (min-width: 992px){
+  #services .card-body{
+    min-height: 194px;
+  }
 }
 
 /* grid visualisation CSS for testing */
