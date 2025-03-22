@@ -5,7 +5,7 @@
 /* CSS variables */
 :root {
   --primary-font: "Inter", sans-serif;
-    --secondary-font: "Macondo", cursive;
+  --secondary-font: "Macondo", cursive;
  --primary-color: #3a2620;/*Dark Brown*/
  --secondary-color: #aa9581;/*Light Brown*/
  --highlight-color: #416a8e;/*blue*/
@@ -19,11 +19,25 @@ body {
 h1,h2,h3{
     font-family: var(--secondary-font);
     color: var(--primary-color);
+    text-transform: uppercase;
 }
 
 .sub-heading-color{
     color: var(--highlight-color);
 }
+
+/*Section*/
+.section{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+/*Header*/
+#header .lead{
+    font-family: var(--secondary-font);
+}
+
+
 
 /* Navbar CSS */
 #navbar {
