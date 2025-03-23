@@ -55,6 +55,7 @@ header .lead{
   height: auto;
 }
 
+/*Services Section
 /*Card footers in services section*/
 #services .card-footer{
   font-weight: bold;
@@ -64,6 +65,18 @@ header .lead{
 
 #services .card{
   margin-bottom: 1.5rem;
+}
+
+/*Games Section*/
+.games-section .card-footer{
+  font-weight: bold;
+  color: var(--highlight-color);
+  background-color: transparent;
+}
+
+.games-section .card{
+  margin-bottom: 1.5rem;
+  border: none;
 }
 
 /*Fix height of services card*/
