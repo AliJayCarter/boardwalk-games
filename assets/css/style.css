@@ -12,6 +12,30 @@
  --hightlight-color-light: #7a9fc2;/*light blue*/
 }
 
+/*Buttons*/
+.custom-button-fill{
+  border: 2px solid var(--highlight-color);
+  background-color: var(--highlight-color);
+  color:white;
+}
+
+.custom-button-fill:hover{
+  border: 2px solid var(--secondary-color);
+  background-color: var(--secondary-color);
+  color:white;
+}
+
+.custom-button-outline{
+  border: 2px solid var(--highlight-color);
+  background-color: transparent;
+  color: var(--highlight-color);
+  padding:7px 25px ;
+}
+
+.custom-button-outline:hover{
+  background-color: var(--highlight-color);
+  color: var(white);
+}
 
 body {
   font-family: var(--primary-font);
