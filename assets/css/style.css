@@ -12,6 +12,7 @@
  --hightlight-color-light: #7a9fc2;/*light blue*/
 }
 
+
 /*Buttons*/
 .custom-button-fill{
   border: 2px solid var(--highlight-color);
@@ -80,6 +81,19 @@ header .lead{
   height: auto;
 }
 
+/*Events Section*/
+/* #events *{
+  background-color: transparent;
+} */
+
+#events .student-discount{
+  background-color: var(--highlight-color);
+  font-weight: bold;
+  color: white;
+  max-width: max-content;
+}
+
+
 /*Services Section
 /*Card footers in services section*/
 #services .card-footer{
@@ -140,11 +154,23 @@ header .lead{
 }
 
 /*Fix height of services card*/
+ @media screen and (min-width: 320px){
+  .table *{
+    font-size: small !important;
+  }
+} 
+
 @media screen and (min-width: 768px){
   #services .card-body{
     min-height: 191px;
   }
+  .table *{
+    font-size: medium !important;
+  }
+
 }
+
+
 
 @media screen and (min-width: 992px){
   #services .card-body{
