@@ -36,7 +36,7 @@
 
 .custom-button-outline:hover{
   background-color: var(--highlight-color);
-  color: var(white);
+  color: white;
 }
 
 body {
