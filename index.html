@@ -260,6 +260,55 @@
           </div>
           </div>
         </section>
+        <!--  Reserve a game section  -->
+        <section class="container section" id="reserve-game">
+          <div class="row">
+            <div class="col-12">
+              <h2 class="display-6 text-center">Reserve a game</h2>
+              <p>Reserve a board game for your next visit to Boardwalk Games. Pick your challenge, and let the adventure begin! Fill out your details and preferred game below, and we'll have it set aside for you when you arrive.</p>
+            </div>
+            <form action="success.html" method="GET">
+              <div class="row">
+            <div class="mb-3 col-12 col-lg-4">
+              <label for="full-name" class="form-label">Full name</label>
+              <input type="text" class="form-control" id="full-name" name="full-name" required>
+            </div>
+            <div class="mb-3 col-12 col-lg-4">
+              <label for="phone-number" class="form-label">Phone Number</label>
+              <input type="tel" class="form-control" id="phone-number" name="phone-number" required>
+            </div>
+            <div class="mb-3 col-12 col-lg-4">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+            <div class="mb-3 col-12 col-lg-8">
+              <label for="game" class="form-label">Game</label>
+              <select class="form-select" id="game" name="game" required>
+                <option value="" selected disabled>Select a game</option>
+                <option value="1">Catan</option>
+                <option value="2">Ticket to Ride</option>
+                <option value="3">Pandemic</option>
+                <option value="4">Codenames</option>
+                <option value="5">Dixit</option>
+                <option value="6">Azul</option>
+                <option value="7">Wingspan</option>
+                <option value="8">Terraforming Mars</option>
+                <option value="9">Gloomhaven</option>
+                <option value="10">Scythe</option>
+              </select>
+            </div>
+            <div class="mb-3 col-12 col-lg-4">
+              <label for="date" class="form-label">Requested Date</label>
+              <input type="date" class="form-control" id="date" name="date" required>
+            </div>
+          </div>
+          <div class="col-12 text-end my-3">
+            <button type="submit" class="btn custom-button-outline">Reserve now</button>
+          </div>
+        </div>
+          </form>
+          
+        </section>
     </main>
 
     <!--Footer section-->
