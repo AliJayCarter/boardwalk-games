@@ -40,6 +40,7 @@
 
 body {
   font-family: var(--primary-font);
+  padding-top: 58px;
 }
 
 h1,h2,h3{
@@ -61,8 +62,7 @@ h3{
 
 /*Section*/
 .section{
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  padding-top: 4rem; /* prevent navbar overlap */
 }
 
 /*Header*/
